@@ -9,9 +9,24 @@ dependencies:
   flutter:
     sdk: flutter
 
+  #SMS
+  telephony:
+
+  #Bloc
+  bloc:
+  flutter_bloc:
+
+  #Di
+  injectable:
+  get_it:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  #Di
+  injectable_generator:
+  build_runner:
 
 flutter:
   uses-material-design: true
