@@ -11,7 +11,7 @@
 import 'package:get_it/get_it.dart' as _i1;
 import 'package:injectable/injectable.dart' as _i2;
 import 'package:personal_library/core/di/register_module.dart' as _i5;
-import 'package:personal_library/presentation/message_list/bloc/message_list_cubit.dart'
+import 'package:personal_library/presentation/conversation_snippet/bloc/conversation_snippet_cubit.dart'
     as _i4;
 import 'package:telephony/telephony.dart' as _i3;
 

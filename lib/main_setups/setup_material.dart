@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:personal_library/presentation/message_list/message_list_page.dart';
+import 'package:personal_library/presentation/conversation_snippet/conversation_snippet_page.dart';
 
 class SetupMaterial extends StatelessWidget {
   const SetupMaterial({super.key});
@@ -7,6 +7,6 @@ class SetupMaterial extends StatelessWidget {
   @override
   Widget build(BuildContext context) => MaterialApp(
         theme: ThemeData(useMaterial3: true),
-        home: const MessageListPage(),
+        home: const ConversationSnippetPage(),
       );
 }
